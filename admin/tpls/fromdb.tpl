@@ -1,0 +1,3 @@
+<form>
+	fromdb.tpl
+</form>

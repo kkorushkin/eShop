@@ -1,0 +1,69 @@
+#homelink img{
+	clear:both;
+	z-index:1000;
+	height:45px;
+	position: fixed; /* Фиксированное положение */
+	right: 0%; /* Расстояние от правого края окна браузера */
+	top: 0%; /* Расстояние сверху */
+}
+.view-small-pics{
+	/*border:1px solid black;*/
+	width:100%;
+	height:17%;
+	background-repeat:no-repeat;
+	background-size: contain;
+}
+#view-big-pics{
+	float:left;
+	border:1px solid black;
+	width:550px;
+	height:550px;
+}
+.view-small-pics:hover{
+	background-color:#333;
+}
+#view-small-pics-wrapper{
+	float:left;
+	width:5%;
+	height:550px;
+}
+#item-info{
+	margin-top:45px;
+	width:100%;
+}
+#item-name{
+	font-size:50px;
+	font-weight:bold;
+	color:white;
+	text-shadow:2px 1px 14px rgba(0, 0, 0, 1);
+}
+#item-price{
+	float:right;
+	font-size:50px;
+	font-weight:bold;
+	color:white;
+	text-shadow:2px 1px 14px rgba(0, 0, 0, 1);
+}
+#zoomer-lenz{
+	position:absolute;
+	border:1px solid black;
+}
+#zoomer{
+	transform-origin:50% 50% 1px;
+	/*position:absolute;*/
+	display:none;
+	float:right;
+	/*border:1px solid black;*/
+	width:550px;
+	height:550px;
+	background-size:auto auto;
+	background-repeat:no-repeat;
+	box-shadow:2px 4px 7px 0px rgba(0, 0, 0, 0.75);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+#sotial-network-icons{
+	
+}

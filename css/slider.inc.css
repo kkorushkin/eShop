@@ -1,0 +1,38 @@
+.slider {
+	position:relative;
+	width:100%;
+	padding-top:370px;
+	text-align:center;
+	}
+	.slider__check {
+		position:absolute;
+		clip:rect(0 0 0 0);
+		overflow:hidden;
+		}
+	.slider__image {
+		position:absolute;
+		top:0;
+		left:25%;
+		}
+	.slider__label {
+		overflow:hidden;
+		display:inline-block;
+		width:15px;
+		height:15px;
+		background:#069;
+		border-radius:50%;
+		text-indent:-9999px;
+		}
+
+/* Display */
+.slider__image {
+	display:none;
+	}
+.slider__check:checked + .slider__label + .slider__image {
+	display:block;
+	}
+
+/* Current */
+.slider__check:checked + .slider__label {
+	background:#C00;
+	}

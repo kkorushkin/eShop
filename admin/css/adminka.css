@@ -1,0 +1,10 @@
+#adm-info {
+	width:100%;
+	max-width:1100px;
+}
+td{
+	border:1px solid black;
+}
+#action-side{
+	width:80%;
+}
