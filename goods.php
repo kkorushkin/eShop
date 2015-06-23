@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Jump-Score-Store: Collection</title>
-    <meta name="description" content="Jordan Jumpman original sneakers and shoes">
+    <meta name="description" content="Jordan Jumpman original sneakers and shoes" />
 	<link rel="stylesheet" href="css/main.css" />
     <script type="text/javascript" src="js/jquery/2.1.4/jquery-2.1.4.js"></script>
     <script type="text/javascript" src="js/sortCollection.js"></script>
