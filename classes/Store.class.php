@@ -3,7 +3,7 @@ class Store{
     private $_link;
     private $_setVars;
     const DB_HOST = "127.0.0.1";
-    const DB_NAME = "eShop";
+    const DB_NAME = "eStore";
     const DB_USER = "root";
     const DB_PASS = "";
     public function __construct(){
